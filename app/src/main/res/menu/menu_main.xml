@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+    <item android:id="@+id/action_search"
+        android:title="Search"
+        app:showAsAction="collapseActionView|always"
+        android:icon="@android:drawable/ic_menu_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:layout_width="wrap_content" />
+    <item
+        android:id="@+id/deleteAll"
+        android:icon="@android:drawable/ic_dialog_info"
+        app:showAsAction="never"
+        android:title="@string/delete">
+    </item>
+
+    <item
+        android:id="@+id/exportAll"
+        android:icon="@android:drawable/ic_dialog_info"
+        app:showAsAction="never"
+        android:title="@string/export">
+    </item>
+
+<item
+    android:id="@+id/exit"
+    app:showAsAction="never"
+    android:title="@string/exit">
+</item>
+</menu>

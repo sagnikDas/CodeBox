@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "223206754657",
+    "project_id": "decent-digit-135023"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223206754657:android:35e81314338b8557",
+        "android_client_info": {
+          "package_name": "com.example.android.codebox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223206754657-63ku506u6qptbms7r5kvlfcijvn0kmdk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.codebox",
+            "certificate_hash": "28D53A749C6EE3C7DC1EB31B280AC39F2F31B2E0"
+          }
+        },
+        {
+          "client_id": "223206754657-7rglk9kql1lsbiuspa0od29as7ea02o3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClJ0ms7GOzhKz8AxHG25WCDmw1JBv2yGM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
